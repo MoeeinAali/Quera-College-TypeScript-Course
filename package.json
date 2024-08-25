@@ -5,6 +5,6 @@
     "typescript": "^5.5.4"
   },
   "scripts": {
-    "me": "npx ts-node index.ts"
+    "dev": "npx nodemon --exec ts-node index.ts"
   }
 }
