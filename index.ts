@@ -1,2 +1,3 @@
-let a : Number = 2 ;
-console.log(a)
+const items: any[] = [1, 'Hi', 2];
+
+console.log(items);
