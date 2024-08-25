@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var maximum_1 = require("./maximum");
+var and_1 = require("./and");
+var removeDuplicates_1 = require("./removeDuplicates");
+console.log((0, maximum_1.maximum)([1, 2, 3, 4, 5, 6]));
+console.log((0, maximum_1.maximum)([20, 12, 15, 23]));
+console.log((0, and_1.and)([true, true, false]));
+console.log((0, and_1.and)([true, true]));
+console.log((0, removeDuplicates_1.removeDuplicates)(["foo", "bar", "bar"]));
+console.log((0, removeDuplicates_1.removeDuplicates)(["a", "a", "a", "b", "b"]));

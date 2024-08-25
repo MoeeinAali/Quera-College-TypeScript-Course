@@ -1,3 +1,3 @@
 export function removeDuplicates(items:string[]) {
-    return [...new Set(items)];
+    return [... new Set(items)];
 }
